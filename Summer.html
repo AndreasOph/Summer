@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome to Collatz conjecture</h1>
+
+    <label class="inputText" for="inputNum">Performs the Collatz function on the number:</label>
+    <input
+      type="number"
+      onfocus="this.value=''"
+      id="posNum"
+      name="inputNum"
+      min="1"
+      max="99999999"
+    />
+    <br />
+    <input
+      class="subBtn"
+      type="button"
+      onclick="numberSteps()"
+      name="Calculate"
+      value="Calculate"
+    />
+
+    <p>Number of steps used to get to 1:</p>
+    <h2 id="count-out">0</h2>
+    <p>Highest number in the sequence:</p>
+    <h2 id="high-num">0</h2>
+    <script src="summer.js"></script>
+  </body>
+</html>

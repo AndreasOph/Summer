@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  text-size-adjust: 24px;
+  font-family: cursive;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.subBtn {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 125px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background: darkgreen;
+}
